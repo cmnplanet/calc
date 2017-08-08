@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="calc_style.css">
+  <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+    <title>TIY Calculator</title>
+</head>
+<body>
+  <div class="framer" id="calc">
+    <form>
+      <input type="button" value="C" class="kstroke_top" id="clear" onclick="readout('c')">
+      <input type="text" class="return" id="sum">
+      <br />
+
+            <input type="button" value="7" class="kstroke" id="seven" onclick="readout('7')">
+            <input type="button" value="8" class="kstroke" id="eight" onclick="readout('8')">
+            <input type="button" value="9" class="kstroke" id="nine" onclick="readout('9')">
+            <input type="button" value="&#247;" class="kstroke_side" id="divide" onclick="readout('/')">
+            <br />
+            <input type="button" value="4" class="kstroke" id="four" onclick="readout('4')">
+            <input type="button" value="5" class="kstroke" id="five" onclick="readout('5')">
+            <input type="button" value="6" class="kstroke" id="six" onclick="readout('6')">
+            <input type="button" value="&#215;" class="kstroke_side" id="multiply" onclick="readout('*')">
+            <br />
+            <input type="button" value="1" class="kstroke" id="one" onclick="readout('1')">
+            <input type="button" value="2" class="kstroke" id="two" onclick="readout('2')">
+            <input type="button" value="3" class="kstroke" class="kstroke" id="three" onclick="readout('3')">
+            <input type="button" value="&#8722;" class="kstroke_side" id="subtract" onclick="readout('—')">
+            <br />
+            <input type="button" value="0" class="kstroke" id="zero" onclick="readout('0')">
+            <input type="button" value="." class="kstroke" id="decimal" onclick="readout('.')">
+            <input type="button" value="=" class="kstroke_top" id="assemble" onclick="total()">
+            <input type="button" value="+" class="kstroke_side" id="addition" onclick="readout('+')">
+
+    </form>
+
+
+
+
+  </div>
+
+
+</body>
+<script src="calscript.js"></script>
+</html>
